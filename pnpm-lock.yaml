@@ -21,8 +21,8 @@ dependencies:
     specifier: ^4.2.5
     version: 4.2.5(vue@3.3.8)
   vuex:
-    specifier: ^3.0.1
-    version: 3.6.2(vue@3.3.8)
+    specifier: ^4.1.0
+    version: 4.1.0(vue@3.3.8)
 
 devDependencies:
   '@vue/cli-plugin-babel':
@@ -7601,11 +7601,12 @@ packages:
       '@vue/server-renderer': 3.3.8(vue@3.3.8)
       '@vue/shared': 3.3.8
 
-  /vuex@3.6.2(vue@3.3.8):
-    resolution: {integrity: sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==}
+  /vuex@4.1.0(vue@3.3.8):
+    resolution: {integrity: sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ==}
     peerDependencies:
-      vue: ^2.0.0
+      vue: ^3.2.0
     dependencies:
+      '@vue/devtools-api': 6.5.1
       vue: 3.3.8
     dev: false
 
