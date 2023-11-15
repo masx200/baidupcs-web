@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "postcss": "8.4.31",
     "register-service-worker": "^1.0.0",
     "vue": "^3.3.8",
     "vue-router": "^3.0.1",
@@ -57,5 +58,8 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "resolutions": {
+    "postcss": "8.4.31"
+  }
 }
