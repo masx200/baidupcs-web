@@ -18,8 +18,8 @@ dependencies:
     specifier: ^3.3.8
     version: 3.3.8
   vue-router:
-    specifier: ^3.0.1
-    version: 3.6.5(vue@3.3.8)
+    specifier: ^4.2.5
+    version: 4.2.5(vue@3.3.8)
   vuex:
     specifier: ^3.0.1
     version: 3.6.2(vue@3.3.8)
@@ -2255,6 +2255,10 @@ packages:
       - walrus
       - whiskers
     dev: true
+
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
 
   /@vue/reactivity-transform@3.3.8:
     resolution: {integrity: sha512-49CvBzmZNtcHua0XJ7GdGifM8GOXoUMOX4dD40Y5DxI3R8OUhMlvf2nvgUAcPxaXiV5MQQ1Nwy09ADpnLQUqRw==}
@@ -7556,11 +7560,12 @@ packages:
       webpack: 5.89.0
     dev: true
 
-  /vue-router@3.6.5(vue@3.3.8):
-    resolution: {integrity: sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==}
+  /vue-router@4.2.5(vue@3.3.8):
+    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
     peerDependencies:
-      vue: ^2
+      vue: ^3.2.0
     dependencies:
+      '@vue/devtools-api': 6.5.1
       vue: 3.3.8
     dev: false
 
