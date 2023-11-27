@@ -10,7 +10,7 @@
   "dependencies": {
     "postcss": "8.4.31",
     "register-service-worker": "^1.0.0",
-    "vue": "^3.3.8",
+    "vue": "^3.3.9",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
