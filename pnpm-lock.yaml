@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^11.1.3
     version: 11.1.3(less@4.2.0)(webpack@5.89.0)
   v-contextmenu:
-    specifier: ^2.8.0
-    version: 2.9.0(vue@3.3.9)
+    specifier: ^3.1.0
+    version: 3.1.0(vue@3.3.9)
   vue-template-compiler:
     specifier: ^2.5.17
     version: 2.7.15
@@ -7433,11 +7433,11 @@ packages:
     engines: {node: '>=8.11.4', npm: '>=6.10.1'}
     dev: true
 
-  /v-contextmenu@2.9.0(vue@3.3.9):
-    resolution: {integrity: sha512-8FnZXOfELGvfX9Zv8mmdmsxpZzS83kSS6eNyxMekHN+yo1+cZM2oeKOdpLH/Rs/n2LSJkhfxxzgS6EeGGRQyVA==}
-    engines: {node: '>= 4.0.0', npm: '>= 3.0.0'}
+  /v-contextmenu@3.1.0(vue@3.3.9):
+    resolution: {integrity: sha512-P/oYcedKEPzRG+ioUSUfBUHueefGTOhfynyKOEIwnt7GPXnzP8nMcKDE2PQYWqH57jbhYe9Hz3nOiEUqiTZWrg==}
+    engines: {node: '>=10.16.0'}
     peerDependencies:
-      vue: ^2.5.0
+      vue: ^3.0.0
     dependencies:
       vue: 3.3.9
     dev: true
