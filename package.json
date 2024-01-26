@@ -19,7 +19,7 @@
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-pwa": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
-    "axios": "^1.6.2",
+    "axios": "^1.6.7",
     "iview": "^3.1.1",
     "less": "^4.2.0",
     "less-loader": "^11.1.3",
